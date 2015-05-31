@@ -31,7 +31,7 @@ public class ExpressionDocumentationException
 
     public ExpressionDocumentationException( String message )
     {
-        super( message );
+        super( message + "something else newly added.");
     }
 
 }
